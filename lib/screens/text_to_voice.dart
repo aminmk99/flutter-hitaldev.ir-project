@@ -7,7 +7,6 @@ class TextToVoice extends StatefulWidget {
 }
 
 class _TextToVoiceState extends State<TextToVoice> {
-  // const TextToVoice({Key? key}) : super(key: key);
   FlutterTts flutterTts = FlutterTts();
 
   TextEditingController controller = TextEditingController();
@@ -44,7 +43,6 @@ class _TextToVoiceState extends State<TextToVoice> {
               ),
             ),
             SizedBox(height: 20),
-            // ElevatedButton(onPressed: () {}, child: Icon(Icons.add)),
             MaterialButton(
               splashColor: Colors.blue,
               onPressed: ()  async {

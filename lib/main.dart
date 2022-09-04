@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hitaldev/screens/floating_button.dart';
+import 'package:hitaldev/screens/loading.dart';
 import 'package:hitaldev/screens/password.dart';
 import 'package:hitaldev/screens/text_to_voice.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.light().copyWith(primary: Colors.amber),
       ),
       debugShowCheckedModeBanner: false,
-      home: TextToVoice(),
+      home: Loading(),
     );
   }
 }
