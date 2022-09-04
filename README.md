@@ -2,7 +2,7 @@
 
 This is a flutter project to implement and test features. I'm using hitaldev.ir instagram account posts.
 They are teaching some features on their instagram page.
-Features that have been implemented so far: text to voice feature, custom floating button
+Features that have been implemented so far: text to voice feature, custom floating button, loading animation
 
 ## Getting Started
 

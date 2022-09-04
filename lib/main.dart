@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.light().copyWith(primary: Colors.amber),
       ),
       debugShowCheckedModeBanner: false,
-      home: Loading(),
+      home: Loading(), //This is where the project begin
     );
   }
 }
